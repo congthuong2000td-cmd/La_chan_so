@@ -1,0 +1,142 @@
+Bạn là một chuyên gia AI Engineer + Fullstack Developer. Hãy giúp tôi xây dựng một hệ thống có tên “Lá Chắn Số” – nền tảng bảo vệ gia đình trên môi trường số, có tích hợp trí tuệ nhân tạo (AI).
+
+🎯 Mục tiêu:
+Xây dựng một hệ thống thông minh có khả năng tự động phát hiện, phân tích và ngăn chặn các nguy cơ trên internet (nội dung độc hại, lừa đảo, tin giả), đồng thời hỗ trợ phụ huynh quản lý con cái hiệu quả.
+
+👥 Đối tượng:
+
+* Phụ huynh bận rộn
+* Trẻ em (6–18 tuổi)
+* Người lớn tuổi (dễ bị lừa đảo online)
+
+---
+
+🧠 CHỨC NĂNG AI CỐT LÕI:
+
+1. AI lọc nội dung thông minh (Content Moderation AI):
+
+* Sử dụng NLP để phân tích văn bản
+* Phân loại nội dung theo các nhãn:
+
+  * Bạo lực
+  * Nội dung người lớn
+  * Lừa đảo (scam/phishing)
+  * Tin giả (fake news)
+* Tự động chặn hoặc cảnh báo
+
+👉 Gợi ý công nghệ:
+
+* OpenAI API / HuggingFace Transformers
+* Model: BERT / DistilBERT
+
+---
+
+2. AI phát hiện lừa đảo (Scam Detection AI):
+
+* Phân tích tin nhắn, email, link
+* Nhận diện các pattern:
+
+  * “trúng thưởng”, “chuyển tiền gấp”
+  * link giả mạo
+* Đưa ra cảnh báo mức độ nguy hiểm (low / medium / high)
+
+---
+
+3. AI học hành vi người dùng (Behavior Learning):
+
+* Học thói quen sử dụng thiết bị
+* Phát hiện bất thường:
+
+  * dùng quá nhiều giờ
+  * truy cập nội dung lạ
+* Gợi ý điều chỉnh
+
+👉 Gợi ý:
+
+* Machine Learning (Random Forest / Logistic Regression)
+* Hoặc simple rule-based + AI hybrid
+
+---
+
+4. Chatbot AI hỗ trợ phụ huynh:
+
+* Trả lời câu hỏi như:
+
+  * “Trang web này có an toàn không?”
+  * “Con tôi dùng điện thoại bao lâu là hợp lý?”
+* Tư vấn bảo mật
+
+---
+
+5. AI nhận diện hình ảnh (Image Moderation):
+
+* Phát hiện ảnh nhạy cảm / bạo lực
+* Sử dụng Computer Vision
+
+👉 Gợi ý:
+
+* CNN / OpenCV / pre-trained model
+
+---
+
+⚙️ HỆ THỐNG:
+
+Frontend:
+
+* ReactJS / NextJS
+* Dashboard trực quan
+
+Backend:
+
+* NodeJS / Express
+
+AI Service:
+
+* Python (FastAPI)
+* Tách riêng microservice AI
+
+Database:
+
+* MongoDB / Firebase
+
+---
+
+🔄 KIẾN TRÚC:
+
+[Frontend] → [Backend API] → [AI Service] → [Database]
+
+---
+
+📊 TÍNH NĂNG HIỂN THỊ:
+
+* Biểu đồ thời gian sử dụng
+* Báo cáo nguy cơ
+* Thống kê hành vi
+
+---
+
+🎨 UI/UX:
+
+* Dễ dùng cho phụ huynh không rành công nghệ
+* Có cảnh báo màu sắc (xanh = an toàn, đỏ = nguy hiểm)
+
+---
+
+🚀 MỞ RỘNG:
+
+* App mobile (Flutter)
+* Tích hợp IoT (giám sát thiết bị trong nhà)
+* Đồng bộ nhiều thiết bị
+
+---
+
+📦 OUTPUT YÊU CẦU:
+
+* Thiết kế hệ thống chi tiết
+* Code mẫu (AI + backend + frontend)
+* Demo luồng hoạt động
+* Gợi ý dataset để train AI
+
+---
+
+Hãy trình bày rõ ràng, có ví dụ minh họa, phù hợp với sinh viên CNTT.
