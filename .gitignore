@@ -21,6 +21,8 @@ yarn-debug.log*
 yarn-error.log*
 .DS_Store
 Thumbs.db
+__pycache__/
+*.db
 
 # Temporary files
 temp/
